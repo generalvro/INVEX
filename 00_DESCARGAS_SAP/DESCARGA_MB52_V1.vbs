@@ -58,9 +58,10 @@ session.findById("wnd[1]/tbar[0]/btn[0]").press
 session.findById("wnd[1]/usr/ctxtDY_PATH").setFocus
 session.findById("wnd[1]/usr/ctxtDY_PATH").caretPosition = 0
 session.findById("wnd[1]").sendVKey 4
-session.findById("wnd[2]/usr/ctxtDY_PATH").text = "C:\Users\angel.bravo\Desktop\POSTGRESQL\MB52 DIARIO"
+session.findById("wnd[2]/usr/ctxtDY_PATH").text = "C:\Users\angel.bravo\Documents\Ecopetrol S.A\INVEX - Documentos\LOGISTICA\01 REPORTES DIARIOS\01 MB52"
 session.findById("wnd[2]/usr/ctxtDY_FILENAME").text = "MB52_" & currentDate & ".XLSX"
 session.findById("wnd[2]/tbar[0]/btn[0]").press
 session.findById("wnd[1]/tbar[0]/btn[12]").press
+
 
 
