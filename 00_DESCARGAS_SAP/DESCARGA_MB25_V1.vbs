@@ -57,7 +57,8 @@ session.findById("wnd[0]/usr/cntlGRID1/shellcont/shell").selectContextMenuItem "
 session.findById("wnd[1]/tbar[0]/btn[0]").press
 
 session.findById("wnd[1]").sendVKey 4
-session.findById("wnd[2]/usr/ctxtDY_PATH").text = "C:\Users\angel.bravo\Desktop\POSTGRESQL\MB25 DIARIO"
+session.findById("wnd[2]/usr/ctxtDY_PATH").text = "C:\Users\angel.bravo\Documents\Ecopetrol S.A\INVEX - Documentos\LOGISTICA\01 REPORTES DIARIOS\02 MB25"
 session.findById("wnd[2]/usr/ctxtDY_FILENAME").text = "MB25_" & currentDate & ".XLSX"
 session.findById("wnd[2]/tbar[0]/btn[0]").press
 session.findById("wnd[1]/tbar[0]/btn[12]").press
+
