@@ -1,0 +1,13 @@
+-- INDICES TABLA DE ORDENES DE COMPRA ----*****************************----********-*-*
+
+-- Índice para filtrar por PROVEEDOR
+CREATE INDEX idx_ODB_PROVEEDOR ON ME2M_ORDEN_DE_COMPRA (PROVEEDOR_ODB);
+
+-- Índice para filtrar por CENTRO
+CREATE INDEX idx_ODB_CENTRO ON ME2M_ORDEN_DE_COMPRA (CENTRO);
+
+-- Índice para filtrar por MATERIAL
+CREATE INDEX idx_ODB_MATERIAL ON ME2M_ORDEN_DE_COMPRA (MATERIAL);
+
+-- Índice para filtrar por ODB
+CREATE INDEX idx_ODB_NUMERO_ODB ON ME2M_ORDEN_DE_COMPRA (NUMERO_DOC_COMPRAS_ODB);
