@@ -1,0 +1,5 @@
+-- Índice para filtrar por PROVEEDOR
+CREATE INDEX idx_ABC ON SE16_PARAMETROS (ABC);
+
+-- Índice para filtrar por PROVEEDOR
+CREATE INDEX idx_MATERIAL ON SE16_PARAMETROS (MATERIAL);
